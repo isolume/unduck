@@ -47,6 +47,24 @@ export const bangs = [
     u: "https://chat.mistral.ai/chat?q={{{s}}}",
   },
   {
+    c: "AI",
+    d: "perplexity.ai",
+    r: 0,
+    s: "Perplexity",
+    sc: "AI",
+    t: "mis",
+    u: "https://perplexity.ai/?q={{{s}}}",
+  },
+  {
+    c: "AI",
+    d: "grok.com",
+    r: 0,
+    s: "Grok",
+    sc: "AI",
+    t: "gk",
+    u: "https://grok.com/?q={{{s}}}",
+  },
+  {
     c: "Tech",
     d: "www.01net.com",
     r: 4,
@@ -3384,6 +3402,15 @@ export const bangs = [
     sc: "TV",
     t: "al",
     u: "https://anilist.co/search/anime?search={{{s}}}",
+  },
+  {
+    c: "Entertainment",
+    d: "anilist.co",
+    r: 0,
+    s: "AniList Manga",
+    sc: "Manga",
+    t: "alm",
+    u: "https://anilist.co/search/manga?search={{{s}}}"
   },
   {
     c: "Tech",
@@ -42082,15 +42109,6 @@ export const bangs = [
     sc: "Google",
     t: "gjp",
     u: "http://www.google.co.jp/search?source=hp&q={{{s}}}&meta=&aq=f&aqi=g10&aql=&oq=&gs_rfai=",
-  },
-  {
-    c: "Entertainment",
-    d: "www.gamekult.com",
-    r: 12,
-    s: "Gamekult",
-    sc: "Games (general)",
-    t: "gk",
-    u: "https://www.gamekult.com/rechercher-jeu.html?q={{{s}}}",
   },
   {
     c: "Online Services",
@@ -83812,15 +83830,6 @@ export const bangs = [
     sc: "Companies",
     t: "pplwiki",
     u: "https://thepluginpeople.atlassian.net/wiki/dosearchsite.action?queryString={{{s}}}",
-  },
-  {
-    c: "News",
-    d: "passapalavra.info",
-    r: 16,
-    s: "Passa Palavra",
-    sc: "Magazine",
-    t: "pp",
-    u: "http://passapalavra.info/?s={{{s}}}",
   },
   {
     c: "Online Services",
